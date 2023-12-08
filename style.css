@@ -1,0 +1,34 @@
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    width: 350px;
+    height: 464px;
+    background-color: #24a3e3;
+    /* background: url('img/bgcanvas.jpeg'); */
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    padding: auto;
+    
+    /* background-position: center center; */
+    /* background-repeat: no-repeat; */
+}
+
+
+    
+@media screen and (max-width: 480px) {
+    
+    #canvas{
+        width: 400px;
+        height: 864px;
+    }
+}
+    
+
